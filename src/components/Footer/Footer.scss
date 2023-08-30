@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+	footer {
+		.container {
+			.fot-con {
+				.about {
+					@apply w-full
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+		.container {
+			.fot-con {
+				@apply flex-col justify-center items-center;
+
+				.footer-logo {
+					@apply w-full text-center
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 425px) {
+	footer {
+		.container {
+			.fot-con {
+				.about {
+					@apply flex-col justify-center text-center;
+				}
+		}
+	}
+}
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 650px) {
+	.resources {
+		@apply flex-col gap-[60px];
+		.item1 {
+			@apply mt-[70px];
+		}
+		.item3 {
+			@apply mt-0;
+		}
+		.item2 {
+			@apply mt-0;
+		}
+	}
+}

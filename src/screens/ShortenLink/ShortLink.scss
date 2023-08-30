@@ -1,0 +1,70 @@
+.form-bg {
+	background: url("../../images/bg-shorten-desktop.svg");
+	background-color: #342a4e;
+	height: 150px;
+	width: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.item2 {
+	@apply mt-[100px]
+}
+.item3 {
+	@apply mt-[200px]
+}
+
+@media screen and (max-width: 768px) {
+	.shorten {
+		.container {
+			.link {
+				.link-detail {
+					.url {
+						@apply flex-col;
+
+						h1 {
+							@apply mb-4 w-full truncate
+						}
+						span {
+							@apply mt-4 flex-col w-full;
+
+							input {
+								@apply w-full truncate
+							}
+
+							button {
+								@apply w-full
+							}
+						}
+						hr {
+							@apply w-full 	;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 650px ) {
+	.shorten {
+		.container {
+			.form-bg {
+				.shorten-form {
+					@apply flex-col gap-[5px];
+
+					.btn-form {
+						@apply w-full
+					}
+				}
+			}
+
+			.advanced {
+				h1 {
+					@apply text-[40px] text-center;
+				}
+			}
+		}
+	}
+}

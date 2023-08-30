@@ -1,0 +1,32 @@
+.bg-boost {
+	background: url("../../images/bg-boost-desktop.svg");
+	background-color: #342a4e;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	height: 250px;
+	width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+	.bg-boost {
+		.container {
+			.boost {
+				h1 {
+					@apply text-[40px] text-center
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.bg-boost {
+		.container {
+			.boost {
+				h1 {
+					@apply text-[30px]
+				}
+			}
+		}
+	}
+}
